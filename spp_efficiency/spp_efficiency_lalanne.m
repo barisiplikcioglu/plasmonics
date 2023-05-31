@@ -70,7 +70,7 @@ if nargin==6
 end
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
-% Note: The following function computes the square root according to 
+% Note: The following function computes the square root according to the
 %       Sommerfeld radiation condition.
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 sqrtbranch=@(x) sqrt(x).*(-1).^(imag(x)<0);
