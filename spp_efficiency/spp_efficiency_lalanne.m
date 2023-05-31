@@ -60,7 +60,7 @@ function [eff,sp] = spp_efficiency_lalanne(lambda,w,em,n1,n2,source,angle)
 if nargin > 7
     error ('Too many arguments.')
 elseif ((nargin==6) && strcmp(source,'pw'))
-    error ('No incidence angle is defined for plane wave source.')
+    error ('No incidence angle is defined for the plane wave source.')
 elseif nargin < 6
     error('Too few arguments.')
 end
